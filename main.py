@@ -21,3 +21,8 @@
    # print("sixteen is less than forty-two!")
 
 #print("a long time ago, in a galaxy far, far away...")
+
+
+def nice_day(name):
+    print("Hello " + name + ", have a nice day!")
+nice_day=("hart")
