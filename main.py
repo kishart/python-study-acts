@@ -23,7 +23,12 @@
 #print("a long time ago, in a galaxy far, far away...")
 
 
-def nice_day(name):
-    print("Have a nice day, " + name + "!")
+#def nice_day(name):
+#    print("Have a nice day, " + name + "!")
 
-nice_day("Puso")
+#nice_day("Puso")
+
+
+#input function
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
