@@ -24,5 +24,6 @@
 
 
 def nice_day(name):
-    print("Hello " + name + ", have a nice day!")
-nice_day=("hart")
+    print("Have a nice day, " + name + "!")
+
+nice_day("Puso")
