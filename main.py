@@ -50,16 +50,26 @@
 
 
 #activity input
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-favColor = input("Enter your favorite color: ")
-favMov = input("Enter your favorite movie: ")
-mobileNum = int(input("Enter your mobile number: "))
-motto = input("Enter your motto in life: ")
+#name = input("Enter your name: ")
+#age = int(input("Enter your age: "))
+#favColor = input("Enter your favorite color: ")
+#favMov = input("Enter your favorite movie: ")
+#mobileNum = int(input("Enter your mobile number: "))
+#motto = input("Enter your motto in life: ")
 
-print("My name is " + name + ".")
-print("I am " , age , "years old.")
-print("My favorite color is " + favColor + ".")
-print("My favorite movie is " , favMov , ".")
-print("My mobile number is " , mobileNum , ".")
-print("My motto in life is " + motto + ".")
+#print("My name is " + name + ".")
+#print("I am " , age , "years old.")
+#print("My favorite color is " + favColor + ".")
+#print("My favorite movie is " , favMov , ".")
+#print("My mobile number is " , mobileNum , ".")
+#print("My motto in life is " + motto + ".")
+
+
+
+#activity data types
+
+#print(10>7)
+#print(str(73911))
+print(tuple("Thank God is Friday!"))
+print (float(4302))
+print(int(3299.35640))
