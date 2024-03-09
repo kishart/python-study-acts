@@ -29,6 +29,37 @@
 #nice_day("Puso")
 
 
-#input function
+#march 10 act: input function
+#name = input("Enter your name: ")
+#print("Hello, " + name + "!")
+
+#input function number dli pwede ang plus 
+#num1 = int(input("Enter first number: "))
+#num2 = int(input("Enter second number: "))
+
+#print("The first number is " , num1 , "while the second number is " , num2 )
+
+# input add numbers 
+#def addNum(num1, num2):
+ #   total = num1 + num2
+ #   return (total)
+#num1 = int(input("Enter first number: "))
+#num2 = int(input("Enter first number: "))
+
+#print ("Total: " ,addNum(num1, num2))
+
+
+#activity input
 name = input("Enter your name: ")
-print("Hello, " + name + "!")
+age = int(input("Enter your age: "))
+favColor = input("Enter your favorite color: ")
+favMov = input("Enter your favorite movie: ")
+mobileNum = int(input("Enter your mobile number: "))
+motto = input("Enter your motto in life: ")
+
+print("My name is " + name + ".")
+print("I am " , age , "years old.")
+print("My favorite color is " + favColor + ".")
+print("My favorite movie is " , favMov , ".")
+print("My mobile number is " , mobileNum , ".")
+print("My motto in life is " + motto + ".")
