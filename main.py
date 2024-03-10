@@ -29,7 +29,7 @@
 #nice_day("Puso")
 
 
-#march 10 act: input function
+#march 9 act: input function
 #name = input("Enter your name: ")
 #print("Hello, " + name + "!")
 
@@ -70,6 +70,30 @@
 
 #print(10>7)
 #print(str(73911))
-print(tuple("Thank God is Friday!"))
-print (float(4302))
-print(int(3299.35640))
+#print(tuple("Thank God is Friday!"))
+#print (float(4302))
+#print(int(3299.35640))
+
+
+#march 10 classes
+class Customers:
+    greeting ="Welcome to the coffee palace!"
+
+c_1=Customers()
+c_1.name ="Samirah"
+c_1.beverage = "Iced Caffe Latte"
+c_1.food = "Cinnamon roll"
+c_1.total = 225
+
+c_2=Customers()
+c_2.name ="Jerry"
+c_2.beverage = "Caramel macchiato"
+c_2.food = "Glazed doughnut"
+c_2.total = 230
+
+print(Customers.greeting)
+print(c_1.beverage)
+print(c_2.food)
+
+
+
