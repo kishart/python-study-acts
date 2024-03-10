@@ -98,15 +98,21 @@
 
 
 #arithmetic operators 
-print(217 * 6)
-
-print(600 + 35234)
-
-print(67 //12)
-
-print(56329 %982)
-
-print(34**5)
+#print(217 * 6)
+#print(600 + 35234)
+#print(67 //12)
+#print(56329 %982)
+#print(34**5)
 
 
 
+#comparison and logical operators
+my_age=22
+mom_age=61
+sister_age=29
+
+print(mom_age<sister_age and my_age==22)
+print(mom_age==61)
+print(mom_age>34 or sister_age==22)
+print(mom_age>=54)
+print(not(sister_age<=400 and my_age==22))
