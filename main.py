@@ -76,24 +76,37 @@
 
 
 #march 10 classes
-class Customers:
-    greeting ="Welcome to the coffee palace!"
+#class Customers:
+ #   greeting ="Welcome to the coffee palace!"
 
-c_1=Customers()
-c_1.name ="Samirah"
-c_1.beverage = "Iced Caffe Latte"
-c_1.food = "Cinnamon roll"
-c_1.total = 225
+#c_1=Customers()
+#c_1.name ="Samirah"
+#c_1.beverage = "Iced Caffe Latte"
+#c_1.food = "Cinnamon roll"
+#c_1.total = 225
 
-c_2=Customers()
-c_2.name ="Jerry"
-c_2.beverage = "Caramel macchiato"
-c_2.food = "Glazed doughnut"
-c_2.total = 230
+#c_2=Customers()
+#c_2.name ="Jerry"
+#c_2.beverage = "Caramel macchiato"
+#c_2.food = "Glazed doughnut"
+#c_2.total = 230
 
-print(Customers.greeting)
-print(c_1.beverage)
-print(c_2.food)
+#print(Customers.greeting)
+#print(c_1.beverage)
+#print(c_2.food)
+
+
+
+#arithmetic operators 
+print(217 * 6)
+
+print(600 + 35234)
+
+print(67 //12)
+
+print(56329 %982)
+
+print(34**5)
 
 
 
