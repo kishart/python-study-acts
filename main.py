@@ -107,8 +107,8 @@
 
 
 #comparison and logical operators
-my_age=25
-mom_age=60
+my_age=20
+mom_age=40
 sister_age=28
 
 print(mom_age<sister_age and my_age==22)
