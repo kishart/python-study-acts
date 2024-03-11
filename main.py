@@ -107,12 +107,32 @@
 
 
 #comparison and logical operators
-my_age=25
-mom_age=60
-sister_age=28
+<<<<<<< HEAD
+#my_age=25
+#mom_age=60
+#sister_age=28
 
-print(mom_age<sister_age and my_age==22)
-print(mom_age==61)
-print(mom_age>34 or sister_age==22)
-print(mom_age>=54)
-print(not(sister_age<=400 and my_age==22))
+#print(mom_age<sister_age and my_age==22)
+#print(mom_age==61)
+#print(mom_age>34 or sister_age==22)
+#print(mom_age>=54)
+#print(not(sister_age<=400 and my_age==22))
+
+#March 11 if else elif statement
+#x=332
+#y=2031
+
+#if x >= y:
+#   print("x is greater than or equal to y")
+#elif x==y:
+#   print("x is equal to y")
+#else:
+#   print("x is less than y")
+
+
+#for loops
+furniture =["table", "chair", "cabinet","desk", "couch"]
+for x in furniture:
+      if x == "cabinet":
+         continue
+      print(x)
