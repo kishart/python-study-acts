@@ -107,7 +107,7 @@
 
 
 #comparison and logical operators
-<<<<<<< HEAD
+
 #my_age=25
 #mom_age=60
 #sister_age=28
