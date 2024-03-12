@@ -149,27 +149,29 @@
 
 
 #March 12 inheritanceclass Customers:
+
 class Customers:
-    greeting = "Welcome to the coffee palace!"
+    greeting="welcone to the cofee palace"
 
     def __init__(self, name, beverage, food, total):
-        self.name = name
-        self.beverage = beverage
-        self.food = food
-        self.total = total
+         self.name=name
+         self.beverage=beverage
+         self.food=food
+         self.total=total
 
-c_1 = Customers("Nate", "Espresso", "Pastrami on rye", 220)
-c_2 = Customers("Elaine", "Strawberry frappucino", "Tuna wrap", 270)
-c_3 = Customers("Samirah", "Iced Caffe Latte", "Cinnamon roll", 225)
-c_4 = Customers("Jerry", "Caramel macchiato", "Glazed doughnut", 230)
-c_5 = Customers("Paz", "Iced tea", "Blueberry pancake", 315)
+c_1=Customers("Samirah", "Iced Caffe Latte", "Cinnamon roll", 225)
+c_2=Customers("Jerry", "Caramel macchiato", "Glazed doughnut", 230)
+c_3=Customers("Jasmine", "Cappuccino", "Blueberry muffin", 220)
+c_4=Customers("Jasper", "Espresso", "Chocolate chip cookie", 215)
+c_5=Customers("Jenny", "Cafe Mocha", "Strawberry cheesecake", 240)
 
 print(Customers.greeting)
+print(c_1.name)
+print(c_1.beverage)
+print(c_1.food)
+print(c_1.total)
+
 print(c_2.name)
 print(c_2.beverage)
 print(c_2.food)
 print(c_2.total)
-print(c_4.name)
-print(c_4.beverage)
-print(c_4.food)
-print(c_4.total)
