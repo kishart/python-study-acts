@@ -148,30 +148,66 @@
 #   print("i is no longer less than 15")
 
 
-#March 12 inheritanceclass Customers:
+#March 12 init method:
 
-class Customers:
-    greeting="welcone to the cofee palace"
+#class Customers:
+ #   greeting="welcone to the cofee palace"
 
-    def __init__(self, name, beverage, food, total):
-         self.name=name
-         self.beverage=beverage
-         self.food=food
-         self.total=total
+#    def __init__(self, name, beverage, food, total):
+ #        self.name=name
+ #        self.beverage=beverage
+#         self.food=food
+#         self.total=total
 
-c_1=Customers("Samirah", "Iced Caffe Latte", "Cinnamon roll", 225)
-c_2=Customers("Jerry", "Caramel macchiato", "Glazed doughnut", 230)
-c_3=Customers("Jasmine", "Cappuccino", "Blueberry muffin", 220)
-c_4=Customers("Jasper", "Espresso", "Chocolate chip cookie", 215)
-c_5=Customers("Jenny", "Cafe Mocha", "Strawberry cheesecake", 240)
+#c_1=Customers("Samirah", "Iced Caffe Latte", "Cinnamon roll", 225)
+#c_2=Customers("Jerry", "Caramel macchiato", "Glazed doughnut", 230)
+#c_3=Customers("Jasmine", "Cappuccino", "Blueberry muffin", 220)
+#c_4=Customers("Jasper", "Espresso", "Chocolate chip cookie", 215)
+#c_5=Customers("Jenny", "Cafe Mocha", "Strawberry cheesecake", 240)
 
-print(Customers.greeting)
-print(c_1.name)
-print(c_1.beverage)
-print(c_1.food)
-print(c_1.total)
+#print(Customers.greeting)
+#print(c_1.name)
+#print(c_1.beverage)
+#print(c_1.food)
+#print(c_1.total)
 
-print(c_2.name)
-print(c_2.beverage)
-print(c_2.food)
-print(c_2.total)
+#print(c_2.name)
+#print(c_2.beverage)
+#print(c_2.food)
+#print(c_2.total)
+
+
+#inheritanceclass ClubMembers:
+class ClubMembers:
+   def __init__(self, name, birthday, age, favoriteFood, goal):
+        self.name = name
+        self.birthday = birthday
+        self.age = age
+        self.favoriteFood = favoriteFood
+        self.goal = goal
+
+   def display1(self):
+       print("Name: ", self.name)
+       print("Birthday: ", self.birthday)
+       print("Age: ", self.age)
+       print("Favorite Food: ", self.favoriteFood)
+       print("Goal: ", self.goal)
+
+class ClubOfficers(ClubMembers):
+   def __init__(self, name, birthday, age, favoriteFood, goal, position):
+        super().__init__(name, birthday, age, favoriteFood, goal)
+        self.position = position
+        ClubMembers.__init__(self, name, birthday, age, favoriteFood, goal)
+
+   def display2(self):
+       print("Name: ", self.name)
+       print("Birthday: ", self.birthday)
+       print("Age: ", self.age)
+       print("Favorite Food: ", self.favoriteFood)
+       print("Goal: ", self.goal)
+       print("Position: ", self.position)
+m_1 = ClubMembers("Tom", "January 6", 14, "Ice Cream", "To be happy")
+o_4 = ClubOfficers("Vera", "February 22", 13, "Pizza", "To be successful", "Treasurer")
+
+m_1.display1()
+o_4.display2()
