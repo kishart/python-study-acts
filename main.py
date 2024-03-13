@@ -213,11 +213,12 @@
        
 #dictionaries
 
-flavors={"vanilla", "chocolate", "strawberry", "cookies n' cream", "bubblegum"}
-toppings={"almonds", "banana slices", "chocolate syrup", "caramel syrup", "white chocolate chips"}
+flavors = {"vanilla", "chocolate", "strawberry", "cookies n' cream", "bubblegum"}
+toppings = {"almonds", "banana slices", "chocolate syrup", "caramel syrup", "white chocolate chips"}
 
-ice_cream=zip(flavors,toppings)
-creamy={key:value for key, value in ice_cream}
-
-toppings["banana slices"]="blueberries"
-print(creamy)
+ice_cream = dict(zip(flavors, toppings))
+     
+print(ice_cream)
+ice_cream["chocolate"] = "blueberries"
+ice_cream.update({"match": "pistachios", "ube": "mango slice"})
+print(ice_cream)
