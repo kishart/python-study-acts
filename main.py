@@ -206,8 +206,8 @@ class ClubOfficers(ClubMembers):
        print("Favorite Food: ", self.favoriteFood)
        print("Goal: ", self.goal)
        print("Position: ", self.position)
-m_1 = ClubMembers("Tom", "January 15", 14, "Ice Cream", "To be happy")
-o_4 = ClubOfficers("Vera", "February 12", 13, "Pizza", "To be successful", "Treasurer")
+m_1 = ClubMembers("Tomy", "January 15", 14, "Ice Cream", "To be happy")
+o_4 = ClubOfficers("Annie", "February 12", 13, "Pizza", "To be successful", "Treasurer")
 
 m_1.display1()
 o_4.display2()
