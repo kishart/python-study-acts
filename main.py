@@ -178,36 +178,45 @@
 
 
 #inheritanceclass ClubMembers:
-class ClubMembers:
-   def __init__(self, name, birthday, age, favoriteFood, goal):
-        self.name = name
-        self.birthday = birthday
-        self.age = age
-        self.favoriteFood = favoriteFood
-        self.goal = goal
+#class ClubMembers:
+#   def __init__(self, name, birthday, age, favoriteFood, goal):
+#        self.name = name
+ #       self.birthday = birthday
+#        self.age = age
+#        self.favoriteFood = favoriteFood
+#        self.goal = goal
 
-   def display1(self):
-       print("Name: ", self.name)
-       print("Birthday: ", self.birthday)
-       print("Age: ", self.age)
-       print("Favorite Food: ", self.favoriteFood)
-       print("Goal: ", self.goal)
+#  def display1(self):
+#       print("Name: ", self.name)
+ #      print("Birthday: ", self.birthday)
+ #      print("Age: ", self.age)
+#       print("Favorite Food: ", self.favoriteFood)
+ #      print("Goal: ", self.goal)
 
-class ClubOfficers(ClubMembers):
-   def __init__(self, name, birthday, age, favoriteFood, goal, position):
-        super().__init__(name, birthday, age, favoriteFood, goal)
-        self.position = position
-        ClubMembers.__init__(self, name, birthday, age, favoriteFood, goal)
+#class ClubOfficers(ClubMembers):
+ #  def __init__(self, name, birthday, age, favoriteFood, goal, position):
+   #     super().__init__(name, birthday, age, favoriteFood, goal)
+ #       self.position = position
+   #     ClubMembers.__init__(self, name, birthday, age, favoriteFood, goal)
 
-   def display2(self):
-       print("Name: ", self.name)
-       print("Birthday: ", self.birthday)
-       print("Age: ", self.age)
-       print("Favorite Food: ", self.favoriteFood)
-       print("Goal: ", self.goal)
-       print("Position: ", self.position)
-m_1 = ClubMembers("Tom", "January 15", 14, "Ice Cream", "To be happy")
-o_4 = ClubOfficers("Vera", "February 12", 13, "Pizza", "To be successful", "Treasurer")
+   #def display2(self):
+ #      print("Name: ", self.name)
+ #      print("Birthday: ", self.birthday)
+ #      print("Age: ", self.age)
+ #      print("Favorite Food: ", self.favoriteFood)
+  ##     print("Position: ", self.position)
+#m_1 = ClubMembers("Tom", "January 15", 14, "Ice Cream", "To be happy")
+#o_4 = ClubOfficers("Vera", "February 12", 13, "Pizza", "To be successful", "Treasurer")
 
-m_1.display1()
-o_4.display2()
+#m_1.display1()
+#o_4.display2()
+       
+#dictionaries
+flavors={"vanilla", "chocolate", "strawberry", "cookies n' cream", "bubblegum"}
+toppings={"almonds", "banana slices", "chocolate syrup", "caramel syrup", "white chocolate chips"}
+
+ice_cream=zip(flavors,toppings)
+creamy={key:value for key, value in ice_cream}
+
+toppings["banana slices"]="blueberries"
+print(creamy)
