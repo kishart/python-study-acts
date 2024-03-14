@@ -247,11 +247,16 @@ print(f.readline())
 f = open("pythonessay.txt", "r")
 for x in f:
   print(x)
-  
-""" 
+
+"""
+"""remove file
 import os
 if os.path.exists("pythonessay.txt"):
     os.remove("pythonessay.txt")
 
 else:
   print("The file did not exist")
+  
+"""
+
+print("helklw")
