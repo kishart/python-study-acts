@@ -262,5 +262,5 @@ else:
 from functionfile import personal_greeting
 from functionfile import your_province
 
-personal_greeting("Anna")
-your_province("Pampanga")
+personal_greeting("Anika")
+your_province("Northern Mindanao")
