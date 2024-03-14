@@ -235,3 +235,23 @@ f=open("pythonessay.txt", "r")
 f.close()
 
 """
+""" read mode
+f=open("pythonessay.txt", "r")
+print(f.read())
+"""
+"""single line
+f = open("pythonessay.txt", "r")
+print(f.readline())
+"""
+"""for loops
+f = open("pythonessay.txt", "r")
+for x in f:
+  print(x)
+  
+""" 
+import os
+if os.path.exists("pythonessay.txt"):
+    os.remove("pythonessay.txt")
+
+else:
+  print("The file did not exist")
