@@ -211,7 +211,7 @@
 #m_1.display1()
 #o_4.display2()
        
-#dictionaries
+""""dictionaries
 
 flavors = {"vanilla", "chocolate", "strawberry", "cookies n' cream", "bubblegum"}
 toppings = {"almonds", "banana slices", "chocolate syrup", "caramel syrup", "white chocolate chips"}
@@ -222,3 +222,16 @@ print(ice_cream)
 ice_cream["chocolate"] = "blueberries"
 ice_cream.update({"match": "pistachios", "ube": "mango slice"})
 print(ice_cream)
+
+"""
+""""handling, creating and writing to a file 
+f=open("pythonessay.txt", "w")
+f.write("I like python because it's very interesting")
+f=open("pythonessay.txt", "a")
+f.write("/nI plan to learn data visualization")
+f.write("/n I want to work in the field of secret")
+f.write("/n secret")
+f=open("pythonessay.txt", "r")
+f.close()
+
+"""
